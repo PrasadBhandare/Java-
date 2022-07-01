@@ -1,0 +1,25 @@
+C programming:
+
+#include<stdio.h>
+void main()
+{
+	printf("Hello World");
+}
+-------------------------------
+Java Programming:
+--> In java every method must be present inside the class as per the rules of java
+
+class Program1 //main class
+{
+	public static void main( String args[] )
+	{
+		System.out.println("Hello World");
+	}
+}
+
+public : to make main method visible for the OS
+static : to make main method accessible and to execute the main class without object creation
+void   : as the main method will not have any return value
+
+lyman terms:
+From the System generate an output which must be printed as "hello world"

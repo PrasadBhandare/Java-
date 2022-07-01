@@ -1,0 +1,20 @@
+lyman syntax
+output name_of_the_method ( input )
+{
+	-----
+	----- (Body of the method)
+	-----
+}
+//technical syntax
+return_type name_of_the_method ( parameters )
+{
+	-----
+	----- (Body of the method)
+	-----
+}
+
+int itspossible(int a, int b)		void itspossible(int a, int b)
+{									{
+	int res = a + b;						int res = a + b;
+	return res;					}
+}

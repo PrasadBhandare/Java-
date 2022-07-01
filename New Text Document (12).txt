@@ -1,0 +1,239 @@
+1. What is a language ?
+	It is a medium of communication between 2 entities or multiple entities
+
+2. What is a program ?
+	It is the set of instructions given to the computer.
+
+3. What is programming language?
+	It is a mode of communication between human and the computer where the
+humans instruct the computer to perform some actions.
+
+4. What is the most important aspect of a computer?
+	Central Processing Unit (CPU) ~ Microprocessor
+	Microprocessor is made up of semiconductor technology.
+	( Made up of transistors (npn or pnp) )
+	All semiconductor devices require constant power supply
+	The microprocessor can under only voltages (0v or 5v) ~ H/w engineers
+	The microprocessor can under only binary (0 or 1) ~ S/w engineers
+
+5. What are the different categories of Programming language ?
+	--> Machine Level Language	(MLL)
+				It is a language in which the instruction are given in terms of 
+binary 0 and biunary 1
+
+	--> Assembly Level Language (ALL)
+				It is a language in which the instruction are given in terms of 
+neumonics which will be given to another software called as the Assemebler 
+which will convert the ALL code to MLL because the processor can understand
+only binary 0 and binary 1.
+
+	--> High Level Language (HLL)
+				It is a language in which the instruction are given in terms of 
+human understandable manner and these instruction will be given to another 
+software called as the Compiler which will convert the HLL code to MLL 
+because the processor can understand only binary 0 and binary 1.
+
+6. What are the famous HLL that were present before java ?
+	--> Basic Combined Programming Language (BCPL)
+			Disdvantages:	
+				It occupied more memory
+				It was unstructured
+
+	--> B language
+			Disdvantages:	
+				It was unstructured
+				It was non-portable
+				It was non-object oriented
+
+	--> C language
+			Disdvantages:	
+				It was non-portable
+				It was non-object oriented
+
+	--> C++ Language
+			Disdvantages:	
+				It was non-portable
+
+	--> Java Language
+			Advantage:
+				It occupied less memory
+				It is portable
+				It is object oriented
+				It supports internet
+		
+7. What is non-portability?
+		It is a feature where a program written and complied in 1 platform 
+cannot be executed in another platform
+	--> We can send HLL through the network but we should not send because
+of the presence of Hacker.
+	
+8. What is a platform?
+		It is a combination of Hardware (mp) and Software (os)
+		(Since we are software engineers we focus only on software)
+
+9. What is portability?
+		It is a feature where a program written and complied in 1 platform 
+can be executed in any other platform.
+	Other names for portability are:
+		--> Platform Independency
+		--> Arch Neutrality
+		--> Write once run anywhere feature (WORA)
+		--> Portability
+
+10. Which are the 3 important memory devices of a computer ?
+		--> Microprocessor
+		--> Ramdom Access Memory	(Primary Memory)
+		--> Hard Disk Drive				(Seondary Memory)
+
+11. Why should the computer have the above 3 important memory devices ??
+		There is a expectation from the programmer that his memory devices must be:
+			--> Fast
+			--> Compact
+			--> Cheap
+			--> Non-Volatile 
+	But all these 4 expectations cannot be fulfilled by a single memory device. Hence we have 3
+important memory devices.
+			--> Fast				(RAM)
+			--> Compact			(RAM)	
+			--> Cheap				(HDD)
+			--> Non-Volatile 	(HDD)
+
+12. What is the meaning of the term orientation ??
+		--> Rotation			X
+		--> Direction			X
+		--> Organization		X
+		--> Aim				X
+		--> State				X
+		--> Way of looking  X
+		--> Point of view 	X
+		--> Perspective 		YES
+
+13. What is an Object ??
+		An object is defined as the real world entity which has an existence
+
+14. What is obejct orientation ??
+		Perspective towards a real world entity is called as object orientation
+
+15. What are the principles of Object orientation ?
+		We have 5 important principles of object orientation:
+		--> The world is collection of objects
+		--> No object is useless every object is useful
+		--> Every object is under constant interaction and no object is isolated.
+		--> Every object belongs to one type and that type in Object Orientation we call it as 
+			 a class and the class doesnot exist in reality.
+		--> Every object has something and does something
+			(Where has represent the property and does represent the behaviour)
+		
+16. What is a class?
+		A class is a blueprint which doesnot have a real world existence. In other words class is 
+the type to which an object belongs to.
+
+17. Note: void is used as a return type if incase the method is not returning any value.
+
+18. What are access modifiers ?
+		These will specify the accessibility of a particular class or method or variables
+		--> public access modifier (most visible)(accessible by all)
+		--> protected access modifier
+		--> default access modifier
+		--> private access modifier (least visible)(not accessible by all)
+
+19. Why is main method important in programming?
+		If the program has to get executed then it must be approved by the OS which is the 
+boss of the computer.
+If the OS has to approve the program execution it expects the program to contain the main
+method and hence main method is compulsory in programming.
+
+20. List the steps for java program execution
+		1. Write the code 
+		2. Save the code with the name same as the Main Class name
+		3. Save the code with .java extension
+		4. Open command prompt
+		5. Locate the folder where the code is saved
+		6. use the following command to compile the program
+				javac file_name.java --> javac Program1.java
+		7. use the following command to execute the program
+				java file_name --> java Program1
+
+21. List the steps for java program execution in Eclipse
+		1. Open Eclipse
+		2. Go to File
+		3. Create New Java Project
+		4. Give the name of the Project
+		5. Right Click on the project 
+		6. Create a new class
+		7. Give the name of the class
+		8. Write the necessary code
+		9. Right click on the class
+		10. Run as Java Application
+
+22. What is a Data ??
+		Data is information
+
+23. What is Data-Type ??
+		Type to which the data belongs to.
+
+24. What are the different data types ?
+		The data types are classified into 2 categories :
+		--> Primitive Data Types
+				byte, short, int, long, char, float, double, boolean
+
+		--> Non-Primitive Data Types
+				Built in classes (These built in classes must be used by creating objects)
+				Byte, Short, Integer, Long, Float, Double, Boolean, String, Char
+				Most of the Non-Primitive Data Types are deprecated in latest versions of java
+
+25. Explain the categories under Primitive Data Types
+		--> Integer type real world data 			: byte, short, int, long
+		--> Character type real world data 			: char
+		--> Real Number type real world data 		: float, double
+		--> Yes/No True/False type real world data 	: boolean
+		
+		Generic formula to find the capacity of data type (Signed numbers)
+			min : -2^(n-1)
+			max: (2^(n-1))-1
+			where n = no: of bits
+		Generic formula to find the capacity of data type (Un-Signed numbers)
+			capacity : 2^(n)		
+			where n = no: of bits
+
+	Integer type real world data
+		--> byte (signed)
+				total number of bytes	: 1
+				total number of bits	: 8
+				min capacity			: -128
+				max capacity			: 127
+		--> byte (un-signed)
+				total number of bytes	: 1
+				total number of bits	: 8
+				capacity				: 256
+
+		--> short (signed)
+				total number of bytes	: 2
+				total number of bits	: 16
+				min capacity			: -32768
+				max capacity			: 32767
+		--> short (un-signed)
+				total number of bytes	: 2
+				total number of bits	: 16
+				capacity				: 65536
+
+		--> int (signed)
+				total number of bytes	: 4
+				total number of bits	: 32
+				min capacity			: -2,147,483,648
+				max capacity			: 2,147,483,647
+		--> int (un-signed)
+				total number of bytes	: 4
+				total number of bits	: 32
+				capacity				: 4294967296
+
+		--> long (signed)
+				total number of bytes	: 8
+				total number of bits	: 64
+				min capacity			: -9223372036854775808
+				max capacity			: 9223372036854775807
+		--> long (un-signed)
+				total number of bytes	: 8
+				total number of bits	: 64
+				capacity				: 1.84467441e19
+		
